@@ -15,7 +15,7 @@ import com.learn.springBoot.security.Models.User;
 import com.learn.springBoot.security.Services.UserService;
 
 @RestController
-@RequestMapping("/allusers")
+@RequestMapping("/users")
 public class UserController {
 	
 	@Autowired
